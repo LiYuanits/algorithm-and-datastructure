@@ -1,8 +1,9 @@
 package queue
 
 import (
+	"algorithm-and-datastructure/array"
 	"bytes"
-	"datastructures/array"
+
 	"fmt"
 )
 

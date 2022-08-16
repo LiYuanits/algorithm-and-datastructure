@@ -1,6 +1,6 @@
 package stack
 
-import "datastructures/linked_list"
+import "algorithm-and-datastructure/linked_list"
 
 //  栈后进先出
 

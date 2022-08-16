@@ -1,4 +1,4 @@
-module datastructures
+module algorithm-and-datastructure
 
 go 1.18
 

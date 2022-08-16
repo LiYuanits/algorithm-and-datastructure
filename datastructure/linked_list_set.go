@@ -1,6 +1,6 @@
 package datastructure
 
-import "datastructures/linked_list"
+import "algorithm-and-datastructure/linked_list"
 
 // 集合特性:每个元素只能存在一次，不能重复。
 // 代表集合不能添加重复元素

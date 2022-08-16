@@ -16,5 +16,5 @@ func BubblingSort(nums []int) {
 			}
 		}
 	}
-	fmt.Println(nums)
+	fmt.Printf("冒泡排序排序好的结果 %v\n", nums)
 }

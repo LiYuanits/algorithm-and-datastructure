@@ -1,6 +1,6 @@
 package stack
 
-import "datastructures/array"
+import "algorithm-and-datastructure/array"
 
 // 栈的特性：后进先出
 //type Stack interface {

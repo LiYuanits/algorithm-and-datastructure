@@ -1,6 +1,9 @@
 package array
 
-import "testing"
+import (
+	"fmt"
+	"testing"
+)
 
 func Test1(t *testing.T) {
 
@@ -9,5 +12,6 @@ func Test1(t *testing.T) {
 
 		arr.Add(0, 1)
 		arr.Add(1, 2)
+		fmt.Printf("%+v", arr)
 	})
 }

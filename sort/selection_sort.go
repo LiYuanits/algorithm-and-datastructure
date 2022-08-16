@@ -21,3 +21,21 @@ func SelectionSort(nums []int) {
 	}
 	fmt.Printf("选择排序排序好的结果 %v\n", nums)
 }
+
+// 选择排序第二种写法
+func SelectSort2(arr []int) {
+
+	for i := 0; i < len(arr)-1; i++ {
+
+		//第二层for遍历比第一层加1，如果第二层for遍历到的值小许第一次就替换位置
+		for j := i + 1; j <= len(arr)-1; j++ {
+
+			if arr[j] < arr[i] {
+				arr[j], arr[i] = arr[i], arr[j]
+			}
+
+		}
+
+	}
+	fmt.Printf("选择排序排序好的结果 %v\n", arr)
+}

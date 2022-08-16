@@ -1,6 +1,6 @@
 package heap
 
-import "datastructures/array"
+import "algorithm-and-datastructure/array"
 
 // 堆的特性：堆中某个节点的值总是不大于其父亲节点的值
 //用数组实现的最大堆
